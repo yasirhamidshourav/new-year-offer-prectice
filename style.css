@@ -17,3 +17,31 @@ main{
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Hedar section */
+.header{
+    background-image: url("images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    box-shadow: inset 130px 70px 160px rgba(0, 0, 0, 1);
+    margin: 50px auto;
+    
+}
+.header-div{
+   
+    padding: 100px 120px 80px 120px;
+}
+.header-div h3{
+    font-size: 32px;
+    color: #ffff;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+.header-div h1{
+    font-size: 72px;
+    color: #ffff;
+    line-height: 85px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+
+}

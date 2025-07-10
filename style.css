@@ -216,3 +216,14 @@ main{
     font-weight: 500;
     line-height: 30px;
 }
+/* images section */
+.images{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+}

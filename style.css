@@ -227,3 +227,37 @@ main{
     padding-left: 20px;
     border-radius: 15px;
 }
+/* Awesome div section */
+.Awesome {
+    margin: 80px 0px;
+}
+.Awesome .sodales h3{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Awesome .sodales h3{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Awesome .sodales h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.Awesome .sodales p{
+    color: #070211;
+    font-size: 20px;
+    line-height: 30px;
+}
+.euismod{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 15px;
+}
+.euismod img{
+    height: 350px;
+    width: 100%;
+}

@@ -1,43 +1,48 @@
 /* body section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
-} 
+}
+
 /* font section */
 
 .merriweather-font {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* Hedar section */
-.header{
+.header {
     background-image: url("images/Banner\ Image.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: cover;
     box-shadow: inset 130px 70px 160px rgba(0, 0, 0, 1);
     margin: 50px auto;
-    
+
 }
-.header-div{
-   
+
+.header-div {
+
     padding: 100px 120px 80px 120px;
 }
-.header-div h3{
+
+.header-div h3 {
     font-size: 32px;
     color: #ffff;
     text-align: center;
     text-shadow: 5px 5px 10px black;
 }
-.header-div h1{
+
+.header-div h1 {
     font-size: 72px;
     color: #ffff;
     line-height: 85px;
@@ -45,34 +50,39 @@ main{
     text-shadow: 5px 5px 10px black;
 
 }
+
 /* main div section */
 /* categories section */
-.categories h1{
+.categories h1 {
     font-size: 88px;
     font-weight: bold;
     text-align: center;
-    color: #FF0000;  
+    color: #FF0000;
 }
-.categories p{
+
+.categories p {
     font-size: 24px;
     font-weight: 500;
     text-align: center;
     color: #FF0000;
 }
-.categories h3{
+
+.categories h3 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: #070211;
 }
-.categories img{
-  height: 500px;
-  width: 800px;
-  margin: 50px 130px;
-  
+
+.categories img {
+    height: 500px;
+    width: 800px;
+    margin: 50px 130px;
+
 }
+
 /* midnight section */
-.midnight{
+.midnight {
     display: flex;
     justify-content: space-between;
     background-image: url("images/Vectorrr.png");
@@ -85,37 +95,43 @@ main{
     box-shadow: inset 160px 5px 160px rgba(0, 0, 0, 1);
 
 }
-.midnight-div{
-    padding: 50px ;
+
+.midnight-div {
+    padding: 50px;
     padding-left: 100px;
 }
-.midnight h1{
+
+.midnight h1 {
     font-size: 64px;
     color: #FFFF;
     line-height: 85px;
     letter-spacing: 10%;
 }
-.midnight p{
+
+.midnight p {
     font-size: 18px;
     color: #FFFF;
     line-height: 30px;
     opacity: 80%;
 }
-.midnight a{
+
+.midnight a {
     font-size: 20px;
     color: #FFFF;
-   font-weight: bold;
-   text-decoration: none;
-   margin: 10px 25px;
-   
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 25px;
+
 }
-.midnight img{
-    padding: 60px 115px ;
+
+.midnight img {
+    padding: 60px 115px;
     width: 260px;
     height: 410px;
 }
+
 /* Hotel section */
-.Hotel{
+.Hotel {
     background: linear-gradient(to bottom, #fad5d5 0%, #FFFFFF 100%);
     text-align: center;
     padding: 100px;
@@ -123,20 +139,23 @@ main{
     border-radius: 15px;
     height: 300px;
 }
-.Hotel h2{
-    color: #070211;   
+
+.Hotel h2 {
+    color: #070211;
     font-size: 32px;
     line-height: 56px;
     font-weight: 600;
 }
-.Hotel span{
-    color: #FF0000;   
+
+.Hotel span {
+    color: #FF0000;
     font-size: 32px;
     line-height: 55px;
     font-weight: 600;
 }
-.Hotel button{
-    color: #FFFFFF;   
+
+.Hotel button {
+    color: #FFFFFF;
     background-color: #FF0000;
     font-size: 20px;
     font-weight: bold;
@@ -144,80 +163,93 @@ main{
     border: none;
     padding: 16px 32px;
 }
+
 /* consectetur section */
-.consectetur{
+.consectetur {
     display: flex;
     justify-content: space-around;
     gap: 100px;
 }
-.consectetur div{
+
+.consectetur div {
 
     padding: 100px;
-   padding-left: 5px;
-   padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 2px;
 }
-.consectetur h3{
+
+.consectetur h3 {
     font-weight: 500;
     font-size: 24px;
     color: #FF0000;
 }
-.consectetur h1{
+
+.consectetur h1 {
     font-weight: 900;
     font-size: 48px;
     color: #070211;
 }
-.consectetur h2{
+
+.consectetur h2 {
     font-weight: bold;
     font-size: 48px;
     color: #FF0000;
 }
-.consectetur p{
-    
+
+.consectetur p {
+
     font-size: 20px;
     color: #070211;
-    line-height: 30px;    
+    line-height: 30px;
 }
 
-.consectetur .center-img img{
+.consectetur .center-img img {
     height: 330px;
     width: 330px;
     padding: 30px;
     border: 10px solid #FF0000;
     border-radius: 100%;
 }
-.consectetur img{
+
+.consectetur img {
     height: 100px;
     width: 80px;
 }
+
 /* malesuada section */
-.malesuada{
+.malesuada {
     text-align: center;
     /* justify-content: center; */
     padding: 20px;
 }
-.malesuada h3{
+
+.malesuada h3 {
     font-size: 24px;
     color: #070211;
     font-weight: 500;
 }
-.malesuada h1{
+
+.malesuada h1 {
     font-size: 70px;
     color: #070211;
     font-weight: 900;
 }
-.malesuada span{
+
+.malesuada span {
     font-size: 70px;
     color: #FF0000;
     font-weight: 900;
 }
-.malesuada p{
+
+.malesuada p {
     font-size: 20px;
     color: #070211;
     font-weight: 500;
     line-height: 30px;
 }
+
 /* images section */
-.images{
+.images {
     display: flex;
     justify-content: space-between;
     background-image: url("images/Rectangle\ 2.png");
@@ -227,70 +259,83 @@ main{
     padding-left: 20px;
     border-radius: 15px;
 }
+
 /* Awesome div section */
 .Awesome {
     margin: 80px 0px;
 }
-.Awesome .sodales h3{
+
+.Awesome .sodales h3 {
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
 }
-.Awesome .sodales h3{
+
+.Awesome .sodales h3 {
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
 }
-.Awesome .sodales h1{
+
+.Awesome .sodales h1 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
-.Awesome .sodales p{
+
+.Awesome .sodales p {
     color: #070211;
     font-size: 20px;
     line-height: 30px;
 }
-.euismod{
+
+.euismod {
     display: flex;
     padding: 10px;
     justify-content: space-between;
     gap: 15px;
 }
-.euismod img{
+
+.euismod img {
     height: 350px;
     width: 100%;
 }
+
 /* Subscribe div section */
-.Subscribe{
+.Subscribe {
     background-color: #faeaea;
     border-radius: 10px;
 }
-.Subscribe .risus{
+
+.Subscribe .risus {
     text-align: center;
     padding: 100px;
     padding-bottom: 50px;
 }
-.Subscribe .risus h1{
+
+.Subscribe .risus h1 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
-.Subscribe .risus p{
+
+.Subscribe .risus p {
     color: #070211;
     font-size: 20px;
     line-height: 30px;
 }
-.Subscribe .euismod{
-   justify-content: center;
+
+.Subscribe .euismod {
+    justify-content: center;
     padding-bottom: 50px;
-   
+
 }
+
 .Subscribe .euismod form {
     display: flex;
 }
 
-.Subscribe .euismod form input[type="email"]{
+.Subscribe .euismod form input[type="email"] {
     border: none;
     font-size: 18px;
     color: #070211;
@@ -298,7 +343,8 @@ main{
     border-radius: 25px 0px 0px 25px;
 
 }
-.Subscribe .euismod form input[type="button"]{
+
+.Subscribe .euismod form input[type="button"] {
     border: none;
     background-color: #FF0000;
     font-size: 20px;
@@ -308,40 +354,46 @@ main{
 
 
 }
+
 /* footer section */
-footer{
-    background-color:#000000;
+footer {
+    background-color: #000000;
     padding: 100px;
     margin: 50px 0px 10px 0px;
-    
+
 }
-footer .Roosevelt{
+
+footer .Roosevelt {
     display: flex;
     justify-content: space-between;
     padding: 60px;
     padding-top: 20px;
 }
-footer .Roosevelt p{
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 40px;
-   color: #FFFFFF;
-   
+
+footer .Roosevelt p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFFFFF;
+
 }
-footer .Gardens{
+
+footer .Gardens {
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
-footer .Street{
+
+footer .Street {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-footer .Gardens div{
-   font-size: 24px;
-   font-weight: 500;
-   line-height: 40px;
-   color: #FFFFFF;
-  
+
+footer .Gardens div {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFFFFF;
+
 }

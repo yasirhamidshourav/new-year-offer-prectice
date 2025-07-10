@@ -308,3 +308,40 @@ main{
 
 
 }
+/* footer section */
+footer{
+    background-color:#000000;
+    padding: 100px;
+    margin: 50px 0px 10px 0px;
+    
+}
+footer .Roosevelt{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    padding-top: 20px;
+}
+footer .Roosevelt p{
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40px;
+   color: #FFFFFF;
+   
+}
+footer .Gardens{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+footer .Street{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer .Gardens div{
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40px;
+   color: #FFFFFF;
+  
+}

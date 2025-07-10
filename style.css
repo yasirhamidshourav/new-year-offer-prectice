@@ -71,3 +71,46 @@ main{
   margin: 50px 130px;
   
 }
+/* midnight section */
+.midnight{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/Vectorrr.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: inset 160px 5px 160px rgba(0, 0, 0, 1);
+
+}
+.midnight-div{
+    padding: 50px ;
+    padding-left: 100px;
+}
+.midnight h1{
+    font-size: 64px;
+    color: #FFFF;
+    line-height: 85px;
+    letter-spacing: 10%;
+}
+.midnight p{
+    font-size: 18px;
+    color: #FFFF;
+    line-height: 30px;
+    opacity: 80%;
+}
+.midnight a{
+    font-size: 20px;
+    color: #FFFF;
+   font-weight: bold;
+   text-decoration: none;
+   margin: 10px 25px;
+   
+}
+.midnight img{
+    padding: 60px 115px ;
+    width: 260px;
+    height: 410px;
+}

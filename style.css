@@ -261,3 +261,50 @@ main{
     height: 350px;
     width: 100%;
 }
+/* Subscribe div section */
+.Subscribe{
+    background-color: #faeaea;
+    border-radius: 10px;
+}
+.Subscribe .risus{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+.Subscribe .risus h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.Subscribe .risus p{
+    color: #070211;
+    font-size: 20px;
+    line-height: 30px;
+}
+.Subscribe .euismod{
+   justify-content: center;
+    padding-bottom: 50px;
+   
+}
+.Subscribe .euismod form {
+    display: flex;
+}
+
+.Subscribe .euismod form input[type="email"]{
+    border: none;
+    font-size: 18px;
+    color: #070211;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+
+}
+.Subscribe .euismod form input[type="button"]{
+    border: none;
+    background-color: #FF0000;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 0px 25px 25px 0px;
+
+
+}

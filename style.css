@@ -45,3 +45,29 @@ main{
     text-shadow: 5px 5px 10px black;
 
 }
+/* main div section */
+/* categories section */
+.categories h1{
+    font-size: 88px;
+    font-weight: bold;
+    text-align: center;
+    color: #FF0000;  
+}
+.categories p{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #FF0000;
+}
+.categories h3{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #070211;
+}
+.categories img{
+  height: 500px;
+  width: 800px;
+  margin: 50px 130px;
+  
+}

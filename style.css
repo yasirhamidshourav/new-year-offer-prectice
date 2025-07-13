@@ -5,7 +5,6 @@ main {
 }
 
 /* font section */
-
 .merriweather-font {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -21,17 +20,15 @@ main {
 
 /* Hedar section */
 .header {
-    background-image: url("images/Banner\ Image.png");
+    background-image: url("images/Banner\ Img.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: cover;
     box-shadow: inset 130px 70px 160px rgba(0, 0, 0, 1);
     margin: 50px auto;
-
 }
 
 .header-div {
-
     padding: 100px 120px 80px 120px;
 }
 
@@ -48,10 +45,10 @@ main {
     line-height: 85px;
     text-align: center;
     text-shadow: 5px 5px 10px black;
-
 }
 
 /* main div section */
+
 /* categories section */
 .categories h1 {
     font-size: 88px;
@@ -219,7 +216,6 @@ main {
 /* malesuada section */
 .malesuada {
     text-align: center;
-    /* justify-content: center; */
     padding: 20px;
 }
 
